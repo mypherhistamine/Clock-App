@@ -19,7 +19,7 @@ class _ClockScreenState extends State<ClockScreen> {
       setState(() {});
     });
 
-    Timer.periodic(Duration(seconds: 1), (timer) {
+    Timer.periodic(Duration(seconds: 60), (timer) {
       //Calls the function repeteadly after a duration
       setState(() {
         randomNumber++;
